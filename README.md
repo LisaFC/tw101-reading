@@ -88,6 +88,7 @@ For example, either of the following sentences disambiguate the previous example
 `**Overlapping functionality** is not optimal.`
 
 `**This overlapping functionality** is not optimal.`
+
 ---
 
 # Active voice vs passive voice
@@ -133,6 +134,7 @@ Use the active voice most of the time. Use the passive voice sparingly. Active v
 Most people mentally convert passive voice sentences into active voice sentences. Why subject your readers to extra processing time? By sticking to active voice, readers can skip the preprocessor stage and go straight to compilation.
 
 Passive voice obfuscates your ideas, turning sentences on their head. Passive voice reports action indirectly. Worst of all, some passive voice sentences even omit an actor altogether, which forces the reader to guess the actor's identity.
+
 ---
 
 # Clear sentences
@@ -348,6 +350,7 @@ A comma often separates clauses, but many subordinate clauses begin without a co
 
 When editing, scrutinize subordinate clauses. Keep the one sentence = one idea formula in mind. Do the subordinate clauses in a sentence *extend* the single idea or do they *branch off* into a separate idea? If the latter, consider dividing the offending subordinate clause(s) into separate sentences.
 
+---
 
 # Lists and tables
 
@@ -465,6 +468,7 @@ Good paragraphs answer the following three questions:
 ## Focus each paragraph on a single topic
 
 A paragraph should explain exactly one part of an idea. That is, a paragraph is an independent unit of logic. As much as possible, try to restrict the paragraph to your current topic, without talking about what will happen in a future topic or what happened in a past topic. When revising, ruthlessly delete (or move to another paragraph) any sentence that doesn't directly relate to the current idea.
+
 ---
 
 # Audience
@@ -483,6 +487,7 @@ A common way to spot the curse of knowledge in your own writing is to identify t
 
 *   Define that term in an appropriate way for the target audience.
 *   Write around that term. That is, avoid using that term. Find another way to explain the term.
+
 ---
 
 # Documents
