@@ -1,3 +1,5 @@
+This is the pre-reading for Technical Writing 101 for SREs, giving you a quick tour of some basic technical writing concepts. We'll explore all these topics and put into practice what you've learned in the actual workshop.
+
 # Words
 
 
@@ -5,24 +7,22 @@
 
 When writing or editing, learn to recognize terms that might be unfamiliar to some or all of your target audience.
 
-
-
 *   If the term is something that already exists, link to a good existing explanation. (Don't reinvent the wheel.) 
 *   If your doc is introducing the term, define the term. Consider providing a glossary if you're introducing many terms.
 
 To define a new term, start by writing a clear one-sentence explanation. Your definition will ultimately span more than one sentence, but begin with a single sentence that can stand on its own and serve as a life raft for readers. For example:
 
-**Frambly** is a sorting preprocessor that selects the optimal sorting algorithm based on the input data's organization.
+"**Frambly** is a sorting preprocessor that selects the optimal sorting algorithm based on the input data's organization."
 
 Notice that we boldfaced the term; boldface guides readers back to the definition. Only boldface the new term once.
 
 Beyond the first sentence, good definitions tend to compare and contrast the new term with something that the reader might be familiar with. For example:
 
-Conceptually, Frambly occupies a similar niche to Foobar. However, Frambly automatically chooses among a dozen sorting algorithms, while Foobar can only toggle between two.
+"Conceptually, Frambly occupies a similar niche to Foobar. However, Frambly automatically chooses among a dozen sorting algorithms, while Foobar can only toggle between two."
 
 Readers appreciate definitions that contain examples, such as the following:
 
-For example, the Carambola Server calls Frambly to choose the right sorting mechanism. That's because the Carambola Server accepts a wide variety of input data.
+"For example, the Carambola Server calls Frambly to choose the right sorting mechanism. That's because the Carambola Server accepts a wide variety of input data."
 
 
 ## Use terms consistently
@@ -40,21 +40,19 @@ Acronyms and abbreviations provide another effective way to refer to compound no
 
 On the initial use of an acronym within a document or a section, spell out the full term, and then put the acronym in parentheses. Put both the spelled-out version and the acronym in boldface. For example:
 
-This document is for engineers who are new to the **Google Display Network** (**GDN**) or need to understand how GDN serving systems work.
+"This document is for engineers who are new to the **Google Display Network** (**GDN**) or need to understand how GDN serving systems work."
 
 You can then use the acronym going forward, as in the following example:
 
-If no cache entry exists, the Mixer calls the **OttoGroup Server** (**OGS**) to fetch ottos for the request. The OGS is a repository that holds all servable ottos. The OGS is organized in a logical tree structure, with a root node and two levels of leaf nodes. The OGS root forwards the request to the leaves and collects the responses.
+"If no cache entry exists, the Mixer calls the **OttoGroup Server** (**OGS**) to fetch ottos for the request. The OGS is a repository that holds all servable ottos. The OGS is organized in a logical tree structure, with a root node and two levels of leaf nodes. The OGS root forwards the request to the leaves and collects the responses."
 
 Do not cycle back-and-forth between the acronym and the expanded version in the same document. 
 
-Disambiguate pronouns
+## Disambiguate pronouns
 
 Many pronouns point to a previously introduced noun, somewhat like pointers in programming. Also like pointers in programming, improperly used pronouns tend to introduce errors. In many cases, you should simply avoid the pronoun and just reuse the noun. However, the utility of a pronoun sometimes outweighs its risk (as in this sentence).
 
 The following pronouns incur the most errors:
-
-
 
 *   it
 *   they (including them and their)
@@ -65,59 +63,44 @@ Python is interpreted, while C++ is compiled. **It** has an almost cult-like fol
 
 Before using the dangerous pronouns **it** or **they**, consider the following guidelines:
 
-
-
 *   Only use a pronoun *after* you've introduced the noun, never before.
 *   Place the pronoun as close as possible to the referring noun. As a rule of thumb, if more than five words separate your noun from your pronoun, consider repeating the noun instead of using the pronoun.
 *   If you introduce a second noun between your noun and your pronoun, reuse your noun instead of using a pronoun.
 
 And while we're on the subject of wayward pronouns, be careful using:
 
-
-
 *   this
 *   that
 
 For example, in this following ambiguous sentence, **This** could refer to Frambus, to Foo, or to both:
 
-You may use either Frambus or Foo to calculate derivatives. **This** is not optimal.
+"You may use either Frambus or Foo to calculate derivatives. **This** is not optimal."
 
 Use either of the following tactics to disambiguate **this** and **that**:
-
-
 
 *   Replace **this** or **that** with the noun.
 *   Place a noun immediately after **this** or **that**.
 
 For example, either of the following sentences disambiguate the previous example:
 
-**Overlapping functionality** is not optimal.
+"**Overlapping functionality** is not optimal."
 
-**This overlapping functionality** is not optimal.
+"**This overlapping functionality** is not optimal."
 
 
 # Active voice vs passive voice
 
 In an active voice sentence or phrase, an actor clearly performs an action on a target. For example, here's a short, active voice sentence:
 
-The cat sat on the mat.
-
-
+`The cat sat on the mat.`
 
 *   actor: The cat
 *   action: sat
 *   target: the mat
 
-
-
----
-
-
 By contrast, here's that same sentence written in passive voice, where the subject of the sentence is the target:
 
-The mat was sat on by the cat.
-
-
+`The mat was sat on by the cat.`
 
 *   target: The mat
 *   action: was sat on
