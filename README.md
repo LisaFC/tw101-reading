@@ -1,4 +1,5 @@
 This is the pre-reading for Technical Writing 101 for SREs, giving you a quick tour of some basic technical writing concepts. We'll explore all these topics and put into practice what you've learned in the actual workshop.
+
 ---
 
 # Words
