@@ -14,19 +14,17 @@ When writing or editing, learn to recognize terms that might be unfamiliar to so
 
 To define a new term, start by writing a clear one-sentence explanation. Your definition will ultimately span more than one sentence, but begin with a single sentence that can stand on its own and serve as a life raft for readers. For example:
 
-```
-**Frambly** is a sorting preprocessor that selects the optimal sorting algorithm based on the input data's organization.
-```
+>**Frambly** is a sorting preprocessor that selects the optimal sorting algorithm based on the input data's organization.
 
 Notice that we boldfaced the term; boldface guides readers back to the definition. Only boldface the new term once.
 
 Beyond the first sentence, good definitions tend to compare and contrast the new term with something that the reader might be familiar with. For example:
 
-`Conceptually, Frambly occupies a similar niche to Foobar. However, Frambly automatically chooses among a dozen sorting algorithms, while Foobar can only toggle between two.`
+>Conceptually, Frambly occupies a similar niche to Foobar. However, Frambly automatically chooses among a dozen sorting algorithms, while Foobar can only toggle between two.
 
 Readers appreciate definitions that contain examples, such as the following:
 
-`For example, the Carambola Server calls Frambly to choose the right sorting mechanism. That's because the Carambola Server accepts a wide variety of input data.`
+>For example, the Carambola Server calls Frambly to choose the right sorting mechanism. That's because the Carambola Server accepts a wide variety of input data.
 
 
 ## Use terms consistently
