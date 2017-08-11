@@ -5,7 +5,7 @@ This is the pre-reading for Technical Writing 101 for SREs, giving you a quick t
 # Words
 
 
-## Define new or unfamiliar terms
+### Define new or unfamiliar terms
 
 When writing or editing, learn to recognize terms that might be unfamiliar to some or all of your target audience.
 
@@ -27,7 +27,7 @@ Readers appreciate definitions that contain examples, such as the following:
 >For example, the Carambola Server calls Frambly to choose the right sorting mechanism. That's because the Carambola Server accepts a wide variety of input data.
 
 
-## Use terms consistently
+### Use terms consistently
 
 If you change the name of a variable midway through a method, your code won't compile. Similarly, if you rename a term in the middle of a document, your ideas won't compile (in your users' heads). Apply the same unambiguous word or term consistently throughout your doc. Once you've named a component **thingy**, don't rename it **thingamabob**. 
 
