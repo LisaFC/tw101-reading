@@ -14,7 +14,9 @@ When writing or editing, learn to recognize terms that might be unfamiliar to so
 
 To define a new term, start by writing a clear one-sentence explanation. Your definition will ultimately span more than one sentence, but begin with a single sentence that can stand on its own and serve as a life raft for readers. For example:
 
-`**Frambly** is a sorting preprocessor that selects the optimal sorting algorithm based on the input data's organization.`
+```
+**Frambly** is a sorting preprocessor that selects the optimal sorting algorithm based on the input data's organization.
+```
 
 Notice that we boldfaced the term; boldface guides readers back to the definition. Only boldface the new term once.
 
