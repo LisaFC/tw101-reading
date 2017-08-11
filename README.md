@@ -33,7 +33,7 @@ If you change the name of a variable midway through a method, your code won't co
 
 However, when introducing a long-winded concept name or product name, you may also specify a shortened version of that name. Then you may use that shortened name throughout the document. For example, the following paragraph is fine:
 
-`**Protocol Buffers** (or **protobufs** for short) provide their own definition language. Blah, blah, blah. And that's why protobufs have won so many county fairs.`
+>**Protocol Buffers** (or **protobufs** for short) provide their own definition language. Blah, blah, blah. And that's why protobufs have won so many county fairs.
 
 
 ## Introduce and use acronyms correctly
@@ -42,11 +42,11 @@ Acronyms and abbreviations provide another effective way to refer to compound no
 
 On the initial use of an acronym within a document or a section, spell out the full term, and then put the acronym in parentheses. Put both the spelled-out version and the acronym in boldface. For example:
 
-`This document is for engineers who are new to the **Google Display Network** (**GDN**) or need to understand how GDN serving systems work.`
+>This document is for engineers who are new to the **Google Display Network** (**GDN**) or need to understand how GDN serving systems work.
 
 You can then use the acronym going forward, as in the following example:
 
-`If no cache entry exists, the Mixer calls the **OttoGroup Server** (**OGS**) to fetch ottos for the request. The OGS is a repository that holds all servable ottos. The OGS is organized in a logical tree structure, with a root node and two levels of leaf nodes. The OGS root forwards the request to the leaves and collects the responses.`
+>If no cache entry exists, the Mixer calls the **OttoGroup Server** (**OGS**) to fetch ottos for the request. The OGS is a repository that holds all servable ottos. The OGS is organized in a logical tree structure, with a root node and two levels of leaf nodes. The OGS root forwards the request to the leaves and collects the responses.
 
 Do not cycle back-and-forth between the acronym and the expanded version in the same document. 
 
@@ -61,7 +61,7 @@ The following pronouns incur the most errors:
 
 For example, in the following sentence, does **It** refer to Python or to C++?
 
-Python is interpreted, while C++ is compiled. **It** has an almost cult-like following.
+>Python is interpreted, while C++ is compiled. **It** has an almost cult-like following.
 
 Before using the dangerous pronouns **it** or **they**, consider the following guidelines:
 
@@ -76,7 +76,7 @@ And while we're on the subject of wayward pronouns, be careful using:
 
 For example, in this following ambiguous sentence, **This** could refer to Frambus, to Foo, or to both:
 
-`You may use either Frambus or Foo to calculate derivatives. **This** is not optimal.`
+>You may use either Frambus or Foo to calculate derivatives. **This** is not optimal.
 
 Use either of the following tactics to disambiguate **this** and **that**:
 
@@ -85,9 +85,9 @@ Use either of the following tactics to disambiguate **this** and **that**:
 
 For example, either of the following sentences disambiguate the previous example:
 
-`**Overlapping functionality** is not optimal.`
+>**Overlapping functionality** is not optimal.
 
-`**This overlapping functionality** is not optimal.`
+>**This overlapping functionality** is not optimal.
 
 ---
 
@@ -95,7 +95,7 @@ For example, either of the following sentences disambiguate the previous example
 
 In an active voice sentence or phrase, an actor clearly performs an action on a target. For example, here's a short, active voice sentence:
 
-`The cat sat on the mat.`
+>The cat sat on the mat.
 
 *   actor: The cat
 *   action: sat
@@ -103,7 +103,7 @@ In an active voice sentence or phrase, an actor clearly performs an action on a 
 
 By contrast, here's that same sentence written in passive voice, where the subject of the sentence is the target:
 
-`The mat was sat on by the cat.`
+>The mat was sat on by the cat.
 
 *   target: The mat
 *   action: was sat on
@@ -112,7 +112,7 @@ By contrast, here's that same sentence written in passive voice, where the subje
 
 Some passive voice sentences omit an actor. For example:
 
-`The mat was sat on.`
+>The mat was sat on.
 
 *   actor: ???
 *   action: was sat on
@@ -193,13 +193,13 @@ Note that generic verbs often signal other ailments, such as:
 
 Embrace the transition **for example**. After presenting a statement or rule, provide a good example. Examples help solidify technical readers' understanding. For example (sorry for getting so meta), consider the following two sentences:
 
-`Call the appropriate flags.DEFINE_datatype function to create a flag that accepts values of a certain datatype. For example, call the flags.DEFINE_integer function to create a flag that accepts integer values.`
+>Call the appropriate flags.DEFINE_datatype function to create a flag that accepts values of a certain datatype. For example, call the flags.DEFINE_integer function to create a flag that accepts integer values.
 
 In the preceding passage, the first sentence introduces a rule and the second sentence demonstrates that rule through an example.
 
 While we're spreading the love for transitions, consider the value of **however**. This transition warns users that they are about to encounter something unexpected.
 
-`The following example sets the id field to "required." **However**, in certain contexts, setting id to "required" can get you fired.`
+>The following example sets the id field to "required." **However**, in certain contexts, setting id to "required" can get you fired.
 
 
 ## Reduce there is/there are
@@ -208,27 +208,27 @@ Sentences that start with **There is** or **There are** marry a generic noun to 
 
 In the best case scenario, you may simply delete **There is** or **There are** (and possibly another word or two later in the sentence). For example, removing **There are** from the following generic sentence:
 
-`There are Frambus variables that track these metrics.`
+>There are Frambus variables that track these metrics.
 
 strengthens the sentence to:
 
-`Frambus variables track these metrics.`
+>Frambus variables track these metrics.
 
 You can sometimes repair a **There is** or **There are** sentence by moving the true subject and true verb from the end of the sentence to the beginning. For example, change the following generic start:
 
-`There are two disturbing facts about Perl you should know.`
+>There are two disturbing facts about Perl you should know.
 
 to the stronger:
 
-`You should know two disturbing facts about Perl.`
+>You should know two disturbing facts about Perl.
 
 In still other situations, writers start sentences with **There is** or **There are** to avoid the hassle of creating true subjects or verbs. If no subject exists, you must create one. For example, the following **There is** sentence does not identify the receiving entity:
 
-T`here is no guarantee that the updates will be received in sequence order.`
+>There is no guarantee that the updates will be received in sequence order.
 
 Specifying a subject (**clients**) creates a clearer experience for the reader:
 
-`Clients might not receive updates in sequence order.`
+>Clients might not receive updates in sequence order.
 
 ---
 
@@ -253,38 +253,36 @@ Finding the shortest documentation implementation takes time but is ultimately w
 
 Focus each sentence on a single idea, thought, or concept. Just as statements execute a single task, sentences should execute a single idea. For example, the following run-on sentence (jam-packed with fiction) contains multiple thoughts:
 
-`Pat Connolly invented FORTRAN 55 in 1958, which was a watershed year in computing, since it was also the year that John McCarthy invented Lisp, which gave computing both an iterative way of attacking problems and a recursive way.`
+>Pat Connolly invented FORTRAN 55 in 1958, which was a watershed year in computing, since it was also the year that John McCarthy invented Lisp, which gave computing both an iterative way of attacking problems and a recursive way.
 
 Breaking the run-on into a succession of single-idea sentence yields the following result:
 
-`Pat Connolly invented FORTRAN 55 in 1958. By coincidence, John McCarthy invented Lisp in the same year. These inventions gave computer science both an iterative and a recursive language for attacking problems.`
+>Pat Connolly invented FORTRAN 55 in 1958. By coincidence, John McCarthy invented Lisp in the same year. These inventions gave computer science both an iterative and a recursive language for attacking problems.
 
 
 ## Convert some run-ons to lists
 
 Inside many run-on technical sentences is a list yearning to break free. For example, consider the following sentence:
 
-`To alter the usual flow of a loop, you may use either a **break** statement (which hops you out of the current loop) or a **continue** statement (which skips past the remainder of the current iteration of the current loop).`
+>To alter the usual flow of a loop, you may use either a **break** statement (which hops you out of the current loop) or a **continue** statement (which skips past the remainder of the current iteration of the current loop).
 
 When you see the conjunction **or** in a long sentence, consider refactoring that sentence into a bulleted list. When you see an embedded list of items or tasks within a long sentence, consider refactoring that sentence into a bulleted or numbered list. For example, the preceding example contains the conjunction **or**, so let's convert that run-on sentence to the following bulleted list:
 
-```
-To alter the usual flow of a loop, call one of the following statements:
-
-*   break, which hops you out of the current loop.
-*   continue, which skips past the remainder of the current iteration of the current loop.
-```
+>To alter the usual flow of a loop, call one of the following statements:
+>
+>*   break, which hops you out of the current loop.
+>*   continue, which skips past the remainder of the current iteration of the current loop.
 
 
 ## Eliminate or reduce extraneous words
 
 Many sentences contain filler—textual junk food that consumes space without nourishing the reader. For example, see if you can spot the unnecessary words in the following sentence:
 
-`An input value greater than 100 causes the triggering of logging.`
+>An input value greater than 100 causes the triggering of logging.
 
 Replacing **causes the triggering of** with the much shorter verb **triggers** yields a shorter sentence:
 
-`An input value greater than 100 triggers logging.`
+>An input value greater than 100 triggers logging.
 
 The following table suggests replacements for a few common bloated phrases:
 
@@ -327,14 +325,12 @@ A **clause** is an independent logical fragment of a sentence, which contains an
 
 Subordinate clauses modify the larger idea in the main clause. As the name implies, subordinate clauses are less important than the main clause. For example, consider the following sentence:
 
-`Python is an interpreted programming language, which was invented in 1991.`
+>Python is an interpreted programming language, which was invented in 1991.
 
 *   main clause: Python is an interpreted programming language
 *   subordinate clause: which was invented in 1991
 
 You can usually identify subordinate clauses by the words that introduce them. The following list (by no means complete) shows some of the more common words that introduce subordinate clauses:
-
-
 
 *   which
 *   that
@@ -346,7 +342,7 @@ You can usually identify subordinate clauses by the words that introduce them. T
 
 A comma often separates clauses, but many subordinate clauses begin without a comma. For example, the following sentence contains a subordinate clause but no comma. We've highlighted the subordinate clause to make it easier to spot:
 
-`I prefer to code in C++ **because I like strong data typing**.`
+>I prefer to code in C++ **because I like strong data typing**.
 
 When editing, scrutinize subordinate clauses. Keep the one sentence = one idea formula in mind. Do the subordinate clauses in a sentence *extend* the single idea or do they *branch off* into a separate idea? If the latter, consider dividing the offending subordinate clause(s) into separate sentences.
 
@@ -370,20 +366,18 @@ Bulleted lists and numbered lists are not interchangeable. Use a **bulleted list
 
 For example, we've made the following a bulleted list because rearranging its elements will not change the list's meaning:
 
-```
-Bash provides the following string manipulation mechanisms:
-
-*   deleting a substring from the start of a string
-*   reading an entire file into one string variable
-```
+>Bash provides the following string manipulation mechanisms:
+>
+>*   deleting a substring from the start of a string
+>*   reading an entire file into one string variable
 
 The following list, by contrast, must be a numbered list because rearranging its elements would change the list's meaning:
 
 Take the following steps to reconfigure the server:
 
-1.  Stop the server.
-1.  Edit the configuration file.
-1.  Restart the server.
+>1.  Stop the server.
+>1.  Edit the configuration file.
+>1.  Restart the server.
 
 ## Keep list items parallel
 
@@ -396,13 +390,11 @@ What makes a list effective - easy to read and memorable? Effective lists are ty
 
 Conversely, at least one item in a **nonparallel** list fails at least one of the preceding consistency checks. For example, the following list is parallel because each item is a proper noun representing the name of a company:
 
-
 *   Google
 *   Microsoft
 *   Amazon
 
 The following list is parallel because each item is a complete sentence:
-
 
 *   Google provides the best search engine in the world.
 *   Microsoft provides a search engine.
@@ -427,9 +419,9 @@ Note that the punctuation for all items in a single list should be consistent. F
 
 Consider starting all items in a numbered list with an imperative verb. An **imperative verb** is a command, such as **open** or **start**. For example, notice how all of the items in the following parallel numbered list begin with an imperative verb:
 
-1.  Download the Frambus app from Google Play.
-1.  Configure the Frambus app's settings.
-1.  Start the Frambus app.
+>1.  Download the Frambus app from Google Play.
+>1.  Configure the Frambus app's settings.
+>1.  Start the Frambus app.
 
 ## Introduce each list and table
 
@@ -437,9 +429,9 @@ We recommend introducing each list and table with a sentence that tells readers 
 
 Although not a requirement, we recommend putting the word **following** into the introductory sentence. The word **following** guides technical readers and assures them that the context really does apply to the list or table after the introductory sentence. For example, consider the following introductory sentences:
 
-`The following list identifies key performance parameters:`
+>The following list identifies key performance parameters:
 
-`Take the following steps to install the Frambus package:`
+>Take the following steps to install the Frambus package:
 
 
 ## Create readable tables
@@ -498,11 +490,11 @@ You can write sentences. You can write paragraphs. But can you organize all thos
 
 A good document begins by defining its scope. For example:
 
-`This document describes the overall design of Project Frambus.`
+>This document describes the overall design of Project Frambus.
 
 A better document additionally defines its non-scope, that is, the topics not covered that the target audience might expect your document to cover. For example:
 
-`This document does not describe the design for the related technology, Project Froobus.`
+>This document does not describe the design for the related technology, Project Froobus.
 
 These scope and non-scope statements benefit not only the reader but also the writer (you). While writing, if the contents of your document veer away from the scope statement, then you must either refocus your document or modify your scope statement. When reviewing your first draft, delete (or branch off to another document) any sections that don't help satisfy the scope statement.
 
@@ -511,7 +503,7 @@ These scope and non-scope statements benefit not only the reader but also the wr
 
 A good document also declares its audience, so relevant readers easily know it's for them and others can look elsewhere. For example:
 
-`We've aimed this document at SREs supporting Frambus.`
+>We've aimed this document at SREs supporting Frambus.
 
 
 ## Establish your key points up front
@@ -540,4 +532,4 @@ These answers might lead you to formulate a plan like the following:
 *   Link to references about quicksort or other sorting algorithms, but don't explain them in the document.
 *   Explain my sorting algorithm.
 *   Explain the circumstances in which my sorting algorithm outperforms quicksort.
-*   Get other people interested in helping..
+*   Get other people interested in helping.
