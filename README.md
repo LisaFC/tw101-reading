@@ -232,7 +232,7 @@ Specifying a subject (**clients**) creates a clearer experience for the reader:
 
 ---
 
-# Short Sentences
+# Short sentences
 
 Software engineers generally aim to minimize the number of lines of code in an implementation. A great SWE can sometimes implement in 25 lines what it takes a weekend programmer to do in 100 lines. Great SWEs minimize lines for the following reasons:
 
