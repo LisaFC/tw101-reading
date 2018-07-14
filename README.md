@@ -1,4 +1,4 @@
-This is the pre-reading for Technical Writing 101 for SREs, giving you a quick tour of some basic technical writing concepts. We'll explore all these topics and put into practice what you've learned in the actual workshop.
+This is the pre-reading for the *Technical Writing 101* class, giving you a quick tour of some basic technical writing concepts. We'll explore all these topics and put into practice what you've learned in the actual workshop.
 
 ---
 
@@ -234,7 +234,7 @@ Specifying a subject (**clients**) creates a clearer experience for the reader:
 
 # Short sentences
 
-Software engineers generally aim to minimize the number of lines of code in an implementation. A great SWE can sometimes implement in 25 lines what it takes a weekend programmer to do in 100 lines. Great SWEs minimize lines for the following reasons:
+Software engineers generally aim to minimize the number of lines of code in an implementation. A great engineer can sometimes implement in 25 lines what it takes a weekend programmer to do in 100 lines. Great engineers minimize lines for the following reasons:
 
 *   Shorter code typically runs faster than longer code.
 *   Shorter code is typically easier to maintain than longer code.
@@ -365,8 +365,8 @@ Conversely, at least one item in a **nonparallel** list fails at least one of th
 
 The following list is parallel because each item is a complete sentence:
 
-*   Google provides the best search engine in the world.
-*   Microsoft provides a search engine.
+*   Google provides a search engine.
+*   Microsoft provides a suite of office applications.
 *   Amazon sells things.
 
 The following list is nonparallel because not all items are logically consistent:
@@ -377,7 +377,7 @@ The following list is nonparallel because not all items are logically consistent
 
 The following list is nonparallel because two of the items are complete sentences and one is not:
 
-*   Google provides the best search engine in the world.
+*   Google provides a search engine.
 *   Microsoft Office
 *   Amazon sells things.
 
@@ -472,12 +472,12 @@ These scope and non-scope statements benefit not only the reader but also the wr
 
 A good document also declares its audience, so relevant readers easily know it's for them and others can look elsewhere. For example:
 
->We've aimed this document at SREs supporting Frambus.
+>We've aimed this document at engineers supporting Frambus.
 
 
 ### Establish your key points up front
 
-Like newspaper articles, engineering documents should position key points at the beginning of the document. Scientific documents typically put conclusions at the end of the document. Don't do this in a technical document! Pretend that your fellow SREs are busy people who won't necessarily read all 76 pages of your document. When reviewing your documentation, ensure that page one answers all of your readers' essential questions.
+Like newspaper articles, engineering documents should position key points at the beginning of the document. Scientific documents typically put conclusions at the end of the document. Don't do this in a technical document! Pretend that your fellow engineers are busy people who won't necessarily read all 76 pages of your document. When reviewing your documentation, ensure that page one answers all of your readers' essential questions.
 
 Note that professional writers focus a lot of energy on page one just to increase the odds of readers making it to page two.
 
