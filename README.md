@@ -146,7 +146,7 @@ Comedy writers seek the funniest results, horror writers strive for the scariest
 
 To engage and educate readers, choose precise, strong, specific verbs; avoid imprecise, weak, or generic verbs. For example, try to reduce your use of the following generic verbs:
 
-*   forms of be: is, are, am, was, were, etc.
+*   forms of "be": is, are, am, was, were, etc.
 *   occur
 *   happen
 
