@@ -234,7 +234,7 @@ Specifying a subject (**clients**) creates a clearer experience for the reader:
 
 # Short sentences
 
-Software engineers generally aim to minimize the number of lines of code in an implementation. A great engineer can sometimes implement in 25 lines what it takes a weekend programmer to do in 100 lines. Great engineers minimize lines for the following reasons:
+Software engineers generally aim to minimize the number of lines of code in an implementation. A great engineer can sometimes implement in 25 lines what it takes an inexperienced programmer to do in 100 lines. Great engineers minimize lines for the following reasons:
 
 *   Shorter code typically runs faster than longer code.
 *   Shorter code is typically easier to maintain than longer code.
