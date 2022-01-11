@@ -1,4 +1,4 @@
-This is the pre-reading for the *Technical Writing 101* class, giving you a quick tour of some basic technical writing concepts. We'll explore all these topics and put into practice what you've learned in the actual workshop.
+This is the pre-reading for the *Technical Writing 101* class, giving you a quick tour of some basic technical writing concepts. We'll explore all these topics and put into practice what you've learned in the actual workshop..
 
 ---
 
